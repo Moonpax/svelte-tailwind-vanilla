@@ -8,8 +8,6 @@ Setting up Tailwind with Svelte is really simple, just install necessary depende
 npm i -D svelte-preprocess tailwindcss postcss autoprefixer
 ```
 
-Create Tailwind config file
-
 Configure **svelte-preprocess** in `rollup.config.js`
 
 ```js
@@ -56,6 +54,8 @@ Next, just import Tailwind.svelte in `src/App.svelte`
 	import Tailwind from "./Tailwind.svelte";
 </script>
 ```
+
+Create Tailwind config file
 
 ```sh
 npx tailwindcss init
