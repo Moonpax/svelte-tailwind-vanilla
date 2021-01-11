@@ -10,10 +10,6 @@ npm i -D svelte-preprocess tailwindcss postcss autoprefixer
 
 Create Tailwind config file
 
-```sh
-npx tailwindcss init
-```
-
 Configure **svelte-preprocess** in `rollup.config.js`
 
 ```js
@@ -59,6 +55,10 @@ Next, just import Tailwind.svelte in `src/App.svelte`
 <script>
 	import Tailwind from "./Tailwind.svelte";
 </script>
+```
+
+```sh
+npx tailwindcss init
 ```
 
 Finally, configure `purge` in `tailwind.config.js`:
